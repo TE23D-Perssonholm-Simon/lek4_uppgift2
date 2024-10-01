@@ -1,0 +1,74 @@
+.flex-spread {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 5px;
+    border-color: black;
+    margin: 5px;
+    border-style: solid;
+    width: 1000px;
+}
+#table{
+    width: 80%;
+}
+.allign-center{
+    display: flex;
+    flex-direction: column;
+/*     justify-content: center; */
+    align-items: center;
+}
+body{
+    background-image: url(./img/winter-snow.jpg);
+
+}
+body > div{
+    margin: 50px;
+}
+
+.list-background{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    width: 600px;
+    
+}
+.black-border{
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+table{
+    background-color: red;
+}
+td{
+    background-color: beige;
+    font-size: xx-large;
+    font-weight: 900;
+    margin: 10px;
+}
+.grey-background{
+    background-color: grey;
+}
+
+
+.tabell_rubriker > td{
+    background-color: grey;
+    font-size: medium;
+    font-weight: 800;
+}
+
+td{
+    text-align: center;
+    max-width: max-content;
+}
+#fireworks{
+    margin-left: 280px;
+    margin-right: 280px;
+}
+#fireworks_small{
+    height: 400px;
+    width: auto;
+}
+
